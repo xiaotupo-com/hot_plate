@@ -1,0 +1,290 @@
+{
+  "name": "code",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "cmsis",
+        "files": [
+          {
+            "path": "libraries/cmsis/cm4/device_support/startup/mdk/startup_at32f413.s"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "firmware",
+        "files": [
+          {
+            "path": "libraries/cmsis/cm4/device_support/system_at32f413.c"
+          },
+          {
+            "path": "libraries/drivers/src/at32f413_misc.c"
+          },
+          {
+            "path": "libraries/drivers/src/at32f413_gpio.c"
+          },
+          {
+            "path": "libraries/drivers/src/at32f413_crm.c"
+          },
+          {
+            "path": "libraries/drivers/src/at32f413_usart.c"
+          },
+          {
+            "path": "libraries/drivers/src/at32f413_pwc.c"
+          },
+          {
+            "path": "libraries/drivers/src/at32f413_i2c.c"
+          },
+          {
+            "path": "libraries/drivers/src/at32f413_dma.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "freertos",
+        "files": [
+          {
+            "path": "FreeRTOS-Kernel/list.c"
+          },
+          {
+            "path": "FreeRTOS-Kernel/portable/GCC/ARM_CM4F/port.c"
+          },
+          {
+            "path": "FreeRTOS-Kernel/portable/MemMang/heap_4.c"
+          },
+          {
+            "path": "FreeRTOS-Kernel/tasks.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "middlewares",
+        "files": [
+          {
+            "path": "middlewares/buzzer/buzzer.cpp"
+          },
+          {
+            "path": "middlewares/ec11/ec11.cpp"
+          },
+          {
+            "path": "middlewares/gpio_init/gpio_init.cpp"
+          },
+          {
+            "path": "middlewares/i2c_application_library/i2c_application.c"
+          },
+          {
+            "path": "middlewares/led/led.cpp"
+          },
+          {
+            "path": "middlewares/ptc/ptc.cpp"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "readme",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "user",
+        "files": [
+          {
+            "path": "src/at32f413_clock.c"
+          },
+          {
+            "path": "src/at32f413_int.cpp"
+          },
+          {
+            "path": "src/hot_plate.cpp"
+          },
+          {
+            "path": "src/main.cpp"
+          },
+          {
+            "path": "src/xtp_defines.cpp"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "c2e2b6457057d118fcd6eb3d2aba561c"
+  },
+  "targets": {
+    "code": {
+      "excludeList": [],
+      "toolchain": "AC6",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x8000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x40000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "inc",
+          "libraries/drivers/inc",
+          "libraries/cmsis/cm4/device_support",
+          "libraries/cmsis/cm4/core_support",
+          "middlewares/i2c_application_library",
+          "FreeRTOS-Kernel/include",
+          "FreeRTOS-Kernel/portable/GCC/ARM_CM4F",
+          "middlewares",
+          "middlewares/iic_oled",
+          "middlewares/buzzer",
+          "middlewares/ec11",
+          "middlewares/led",
+          "middlewares/ptc",
+          "middlewares/gpio_init",
+          ".cmsis/include",
+          "RTE/_code",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "AT32F413CCU7",
+          "USE_STDPERIPH_DRIVER",
+          "AT_START_F413_V1",
+          "AT32"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}

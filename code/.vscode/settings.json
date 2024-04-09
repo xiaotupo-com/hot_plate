@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.toml": "toml",
+        "*.vue": "vue",
+        "*.html": "html",
+        "*.h": "cpp",
+        "ios": "cpp",
+        "random": "cpp",
+        "*.tcc": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}
