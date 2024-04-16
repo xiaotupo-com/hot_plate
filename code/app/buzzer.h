@@ -19,7 +19,6 @@
 #define BUZZER_OFF() 	gpio_bits_write(BUZZER_PORT, BUZZER_PIN, FALSE)
 #define BUZZER_ON() 	gpio_bits_write(BUZZER_PORT, BUZZER_PIN, TRUE)
 
-void buzzer_init(void);
 void buzzer_run(uint16_t period);
 
 #endif

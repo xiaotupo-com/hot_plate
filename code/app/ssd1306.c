@@ -15,11 +15,10 @@
 #include "at32f413.h"
 
 #include "i2c_application.h"
+#include "xtp_utils.h"
 #include "oled_font.h"
-#include "state_led.h"
+#include "led.h"
 #include "stdio.h"
-#include "utils.h"
-#include "xtp_type.h"
 
 extern uint32_t systick_count;
 i2c_handle_type hi2cx;
@@ -30,15 +29,15 @@ static void ssd1306_send_data(u8 *data, u16 size);
 static void _set_color(SSD1306_Color_enum_t color);
 static void _update_screen(void);
 static void _draw_pixel(u8 x, u8 y);
-static void _draw_line(i16 x0, i16 y0, i16 x1, i16 y1);
-static void _draw_horizontal_line(i16 x, i16 y, i16 length);
-static void _draw_vertical_line(i16 x, i16 y, i16 length);
-static void _draw_rect(i16 x, i16 y, i16 width, i16 height);
-static void _draw_fill_rect(i16 xMove, i16 yMove, i16 width, i16 height);
+static void _draw_line(int16_t x0, int16_t y0, int16_t x1, int16_t y1);
+static void _draw_horizontal_line(int16_t x, int16_t y, int16_t length);
+static void _draw_vertical_line(int16_t x, int16_t y, int16_t length);
+static void _draw_rect(int16_t x, int16_t y, int16_t width, int16_t height);
+static void _draw_fill_rect(int16_t xMove, int16_t yMove, int16_t width, int16_t height);
 static void _draw_triangle(u16 x1, u16 y1, u16 x2, u16 y2, u16 x3, u16 y3);
 static void _draw_fill_triangle(u16 x1, u16 y1, u16 x2, u16 y2, u16 x3, u16 y3);
-static void _draw_circle(i16 x0, i16 y0, i16 radius);
-static void _draw_fill_circle(i16 x0, i16 y0, i16 radius);
+static void _draw_circle(int16_t x0, int16_t y0, int16_t radius);
+static void _draw_fill_circle(int16_t x0, int16_t y0, int16_t radius);
 void _init(void);
 static void _On(void);
 static void _Off(void);
@@ -325,27 +324,27 @@ static void _set_color(SSD1306_Color_enum_t color) { ssd1306.color = color; }
 
 static void _set_inverted(bool value) { ssd1306.inverted = value; }
 
-static void _draw_line(i16 x0, i16 y0, i16 x1, i16 y1)
+static void _draw_line(int16_t x0, int16_t y0, int16_t x1, int16_t y1)
 {
-    i16 steep = abs(y1 - y0) > abs(x1 - x0);
+    int16_t steep = abs(y1 - y0) > abs(x1 - x0);
     if (steep)
     {
-        swap_num(&x0, &y0, sizeof(i16));
-        swap_num(&x1, &y1, sizeof(i16));
+        swap_num(&x0, &y0, sizeof(int16_t));
+        swap_num(&x1, &y1, sizeof(int16_t));
     }
 
     if (x0 > x1)
     {
-        swap_num(&x0, &x1, sizeof(i16));
-        swap_num(&y0, &y1, sizeof(i16));
+        swap_num(&x0, &x1, sizeof(int16_t));
+        swap_num(&y0, &y1, sizeof(int16_t));
     }
 
-    i16 dx, dy;
+    int16_t dx, dy;
     dx = x1 - x0;
     dy = abs(y1 - y0);
 
-    i16 err = dx / 2;
-    i16 ystep;
+    int16_t err = dx / 2;
+    int16_t ystep;
 
     if (y0 < y1)
     {
@@ -382,7 +381,7 @@ static void _draw_line(i16 x0, i16 y0, i16 x1, i16 y1)
  * @param length
  * @return None
  */
-static void _draw_horizontal_line(i16 x, i16 y, i16 length)
+static void _draw_horizontal_line(int16_t x, int16_t y, int16_t length)
 {
     if (y < 0 || y >= height())
     {
@@ -442,7 +441,7 @@ static void _draw_horizontal_line(i16 x, i16 y, i16 length)
  * @param length
  * @return None
  */
-static void _draw_vertical_line(i16 x, i16 y, i16 length)
+static void _draw_vertical_line(int16_t x, int16_t y, int16_t length)
 {
     if (x < 0 || x >= width())
         return;
@@ -549,7 +548,7 @@ static void _draw_vertical_line(i16 x, i16 y, i16 length)
  * @param height
  * @return None
  */
-static void _draw_rect(i16 x, i16 y, i16 width, i16 height)
+static void _draw_rect(int16_t x, int16_t y, int16_t width, int16_t height)
 {
     _draw_horizontal_line(x, y, width);
     _draw_vertical_line(x, y, height);
@@ -557,9 +556,9 @@ static void _draw_rect(i16 x, i16 y, i16 width, i16 height)
     _draw_horizontal_line(x, y + height - 1, width);
 }
 
-void _draw_fill_rect(i16 xMove, i16 yMove, i16 width, i16 height)
+void _draw_fill_rect(int16_t xMove, int16_t yMove, int16_t width, int16_t height)
 {
-    for (i16 x = xMove; x < xMove + width; x++)
+    for (int16_t x = xMove; x < xMove + width; x++)
     {
         _draw_vertical_line(x, yMove, height);
     }
@@ -641,10 +640,10 @@ static void _draw_fill_triangle(u16 x1, u16 y1, u16 x2, u16 y2, u16 x3, u16 y3)
     }
 }
 
-static void _draw_circle(i16 x0, i16 y0, i16 radius)
+static void _draw_circle(int16_t x0, int16_t y0, int16_t radius)
 {
-    i16 x = 0, y = radius;
-    i16 dp = 1 - radius;
+    int16_t x = 0, y = radius;
+    int16_t dp = 1 - radius;
     do
     {
         if (dp < 0)
@@ -669,10 +668,10 @@ static void _draw_circle(i16 x0, i16 y0, i16 radius)
     _draw_pixel(x0, y0 - radius);
 }
 
-static void _draw_fill_circle(i16 x0, i16 y0, i16 radius)
+static void _draw_fill_circle(int16_t x0, int16_t y0, int16_t radius)
 {
-    i16 x = 0, y = radius;
-    i16 dp = 1 - radius;
+    int16_t x = 0, y = radius;
+    int16_t dp = 1 - radius;
     do
     {
         if (dp < 0)

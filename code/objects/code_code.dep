@@ -1,661 +1,0 @@
-Dependencies for Project 'code', Target 'code': (DO NOT MODIFY !)
-CompilerVersion: 6160000::V6.16::ARMCLANG
-F (.\FreeRTOS-Kernel\list.c)(0x00000000)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/list.o -MD)
-F (.\FreeRTOS-Kernel\tasks.c)(0x00000000)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/tasks.o -MD)
-F (.\FreeRTOS-Kernel\portable\GCC\ARM_CM4F\port.c)(0x00000000)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/port.o -MD)
-F (.\FreeRTOS-Kernel\portable\MemMang\heap_4.c)(0x00000000)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/heap_4.o -MD)
-F (.\src\at32f413_clock.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/at32f413_clock.o -MD)
-I (inc\at32f413_clock.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-F (.\src\at32f413_int.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/at32f413_int.o -MD)
-I (inc\at32f413_int.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-I (app\xtp_defines.h)(0x661D5F08)
-F (.\src\main.c)(0x661D5808)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/main.o -MD)
-F (.\libraries\cmsis\cm4\device_support\system_at32f413.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/system_at32f413.o -MD)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-F (.\libraries\drivers\src\at32f413_misc.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/at32f413_misc.o -MD)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-F (.\libraries\drivers\src\at32f413_gpio.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/at32f413_gpio.o -MD)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-F (.\libraries\drivers\src\at32f413_crm.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/at32f413_crm.o -MD)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-F (.\libraries\drivers\src\at32f413_usart.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/at32f413_usart.o -MD)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-F (.\libraries\drivers\src\at32f413_pwc.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/at32f413_pwc.o -MD)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-F (.\libraries\drivers\src\at32f413_i2c.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/at32f413_i2c.o -MD)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-F (.\libraries\drivers\src\at32f413_dma.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/at32f413_dma.o -MD)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-F (.\libraries\cmsis\cm4\device_support\startup\mdk\startup_at32f413.s)(0x66156C39)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"AT32F413CCU7 SETA 1"-o ./objects/startup_at32f413.o)
-F (.\README.md)(0x66156C39)()
-F (.\libraries\i2c_application_library\i2c_application.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/i2c_application.o -MD)
-I (libraries\i2c_application_library\i2c_application.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-F (.\app\buzzer.c)(0x661D6177)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/buzzer.o -MD)
-I (app\buzzer.h)(0x661D6148)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-I (app\xtp_defines.h)(0x661D5F08)
-F (.\app\ec11.c)(0x661D578D)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/ec11.o -MD)
-I (app\ec11.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-I (app\gpio_init.h)(0x661D5922)
-I (freertos\include\FreeRTOS.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
-I (inc\FreeRTOSConfig.h)(0x66156C39)
-I (freertos\include\projdefs.h)(0x66156C39)
-I (freertos\include\portable.h)(0x66156C39)
-I (freertos\include\deprecated_definitions.h)(0x66156C39)
-I (freertos\portable\GCC\ARM_CM4F\portmacro.h)(0x66156C39)
-I (freertos\include\mpu_wrappers.h)(0x66156C39)
-I (freertos\include\task.h)(0x66156C39)
-I (freertos\include\list.h)(0x66156C39)
-F (.\app\gpio_init.c)(0x661D60E3)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/gpio_init.o -MD)
-I (app\gpio_init.h)(0x661D5922)
-I (freertos\include\FreeRTOS.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (inc\FreeRTOSConfig.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-I (freertos\include\projdefs.h)(0x66156C39)
-I (freertos\include\portable.h)(0x66156C39)
-I (freertos\include\deprecated_definitions.h)(0x66156C39)
-I (freertos\portable\GCC\ARM_CM4F\portmacro.h)(0x66156C39)
-I (freertos\include\mpu_wrappers.h)(0x66156C39)
-I (freertos\include\task.h)(0x66156C39)
-I (freertos\include\list.h)(0x66156C39)
-I (app\xtp_defines.h)(0x661D5F08)
-F (.\app\hot_plate.c)(0x661D597B)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/hot_plate.o -MD)
-F (.\app\led.c)(0x661D57A2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/led.o -MD)
-I (app\led.h)(0x66156C39)
-I (freertos\include\FreeRTOS.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (inc\FreeRTOSConfig.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-I (freertos\include\projdefs.h)(0x66156C39)
-I (freertos\include\portable.h)(0x66156C39)
-I (freertos\include\deprecated_definitions.h)(0x66156C39)
-I (freertos\portable\GCC\ARM_CM4F\portmacro.h)(0x66156C39)
-I (freertos\include\mpu_wrappers.h)(0x66156C39)
-I (freertos\include\task.h)(0x66156C39)
-I (freertos\include\list.h)(0x66156C39)
-I (app\gpio_init.h)(0x661D5922)
-F (.\app\ptc.c)(0x661D598C)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/ptc.o -MD)
-I (app\ptc.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)
-I (app\gpio_init.h)(0x661D5922)
-I (freertos\include\FreeRTOS.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x603507D0)
-I (inc\FreeRTOSConfig.h)(0x66156C39)
-I (freertos\include\projdefs.h)(0x66156C39)
-I (freertos\include\portable.h)(0x66156C39)
-I (freertos\include\deprecated_definitions.h)(0x66156C39)
-I (freertos\portable\GCC\ARM_CM4F\portmacro.h)(0x66156C39)
-I (freertos\include\mpu_wrappers.h)(0x66156C39)
-I (freertos\include\task.h)(0x66156C39)
-I (freertos\include\list.h)(0x66156C39)
-F (.\app\ssd1306.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/ssd1306.o -MD)
-F (.\app\xtp_defines.c)(0x66156C39)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc -I ./libraries/drivers/inc -I ./libraries/cmsis/cm4/device_support -I ./libraries/cmsis/cm4/core_support -I ./libraries/i2c_application_library -I ./app -I ./freertos/include -I ./freertos/portable/GCC/ARM_CM4F-IC:/Users/zhang/AppData/Local/Arm/Packs/ArteryTek/AT32F413_DFP/2.1.4/Device/Include-D__UVISION_VERSION="536" -DAT32F413CCU7 -DAT32F413CCU7 -DUSE_STDPERIPH_DRIVER -DAT_START_F413_V1 -DAT32-o ./objects/xtp_defines.o -MD)
-I (app\xtp_defines.h)(0x661D5F08)
-I (libraries\cmsis\cm4\device_support\at32f413.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\core_cm4.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
-I (libraries\cmsis\cm4\core_support\cmsis_version.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_compiler.h)(0x66156C39)
-I (libraries\cmsis\cm4\core_support\cmsis_armclang.h)(0x66156C39)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x602A3B7E)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x603507C4)
-I (libraries\cmsis\cm4\core_support\mpu_armv7.h)(0x66156C39)
-I (libraries\cmsis\cm4\device_support\system_at32f413.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_def.h)(0x66156C39)
-I (inc\at32f413_conf.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crm.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_tmr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_rtc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_bpr.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_gpio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_i2c.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usart.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_pwc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_can.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_adc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_spi.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_dma.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_debug.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_flash.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_crc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wwdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_wdt.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_exint.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_sdio.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_acc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_misc.h)(0x66156C39)
-I (libraries\drivers\inc\at32f413_usb.h)(0x66156C39)

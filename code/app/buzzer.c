@@ -1,7 +1,5 @@
 #include "buzzer.h"
 
-
-
 /** @brief 蜂鸣器滴滴响
   *	@biref 
   * @param period
